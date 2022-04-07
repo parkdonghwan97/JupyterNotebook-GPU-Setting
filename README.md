@@ -29,7 +29,7 @@ print(device_lib.list_local_devices())
 - RTX3060 & RTX3060TI 기준 CUDA SDK 11.1 – 11.6 support for compute capability 3.5 – 8.6 (Kepler (in part), Maxwell, Pascal, Volta, Turing, Ampere
 
 
-- [쿠다 툴킷 설치[(https://developer.nvidia.com/cuda-toolkit-archive) 필자는 11.2를 받았다.
+- [쿠다 툴킷 설치](https://developer.nvidia.com/cuda-toolkit-archive) 필자는 11.2를 받았다.
 - 설치가 완료된다면 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2 경로가 생길것이다.
 
 ![image](https://user-images.githubusercontent.com/64680900/162017225-2acac80a-82f9-4959-890b-1ad40d554e96.png)
@@ -85,7 +85,7 @@ print(device_lib.list_local_devices())
 
 
 ## 기타 오류?
-- 앞서 언급하였듯이 conda install로 설치한 사람은 텐서플로우와 케라스 버전이 2.6 매칭이 안되었을 가능서이 높다.
+- 앞서 언급하였듯이 conda install로 설치한 사람은 텐서플로우와 케라스 버전이 2.6 매칭이 안되었을 가능성이 높다.
 
 - 설치완료하고 GPU까지 잡혔는데 CNN이나 VGG 모델링 등 딥러닝 모델을 돌리다가 커널이 죽는 경우가 있다.
 ![image](https://user-images.githubusercontent.com/64680900/162020758-f146371c-616d-4705-8147-91505499dcb1.png)
